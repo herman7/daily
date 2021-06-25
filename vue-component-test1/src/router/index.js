@@ -30,6 +30,16 @@ const routes = [
     path: '/alert',
     name: 'Alert',
     component: () => import('../views/Alert.vue')
+  },
+  {
+    path: '/table',
+    name: 'Table',
+    component: () => import('../views/Table.vue')
+  },
+  {
+    path: '/tableSlot',
+    name: 'TableSlot',
+    component: () => import('../views/TableSlot.vue')
   }
 ];
 
